@@ -49,12 +49,12 @@ New-Website -name "wtf1" -hostheader "www.ngcpM.ph" -physicalPath "d:\webs\datin
 CMD
 ping www.ngcpM.ph
 
-youporn.com
+youporn.com 66.254.114.79
 pornhub.com 66.254.114.41
 redtube.com 66.254.114.23
 faketaxi.com 66.254.114.234
-bangbros.com
-txxx.com
+bangbros.com 66.254.114.234
+txxx.com     62.122.168.133
 bangbus.com  104.21.5.229
              172.67.133.243
 pinayflix.com 104.21.234.3
