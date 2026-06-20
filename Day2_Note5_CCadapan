@@ -1,0 +1,24 @@
+Fail2Ban
+
+in SecureCRT
+
+sudo dnf -y install fail2ban
+
+then
+
+sudo systemctl enable --now fail2ban
+
+then 
+
+fail2ban-client status
+
+fail2ban-client status sshd
+
+sudo nano /etc/fail2ban/jail.local
+
+sudo systemctl restart fail2ban
+
+----------------------------------------------------------
+how to unban ip
+
+sudo fail2ban-client set sshd unbanip "attacker ip addres"
