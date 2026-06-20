@@ -1,0 +1,7 @@
+Honeypot
+
+nmap -v ip addr of kali
+
+cd /rivan/kali/pentbox-1.8 or cd /home/rivan/pentbox-1.8 
+
+./pentbox.rb
