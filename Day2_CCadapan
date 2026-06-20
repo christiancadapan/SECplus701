@@ -1,0 +1,37 @@
+Review:
+
+After re wiring the cables:
+
+open SecureCRT, Quick Connect
+Protocol : Serial
+Port : USB Serial
+Baud Rate : 9600
+Note : uncheck XON/XOFF
+
+
+
+
+----------------------------------------------
+
+
+Kali
+
+Creds:
+admin
+pass
+
+ip addr
+192.168.101.202
+
+----------------------------------------------
+in secureCRT
+
+SSH2
+put the IP address, then connect
+if credential is neede, put creds from Kali
+
+
+Command:
+sudo su
+sudo /opt/lampp/lampp/start
+sudo systemctl stop apache2
